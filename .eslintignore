@@ -1,0 +1,16 @@
+vite.config.ts
+/public
+/dist
+.svg
+.png
+.jpeg
+.jpg
+.frag
+.vert
+.glsl
+.gitignore
+.json
+.node_modules
+.MD
+.git
+.DS_Store

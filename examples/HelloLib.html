@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HelloLib</title>
+  </head>
+  <body>
+    <div class="app">
+      <div id="container"></div>
+    </div>
+
+    <script type="module">
+      import HelloLib from "HelloLib";
+      new HelloLib("container");
+    </script>
+  </body>
+
+  <style>
+    .app {
+      display: flex;
+      display: -webkit-flex; /* Safari */
+      flex-direction: column;
+      margin: auto;
+      align-content: center;
+      justify-content: center;
+      align-items: center;
+      position: fixed;
+
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+    }
+
+    .svg {
+      width: 50%;
+      height: 50%;
+    }
+
+    .logo {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      display: -webkit-flex;
+      flex-direction: row;
+    }
+    #container {
+      display: flex;
+      display: -webkit-flex;
+      flex-direction: column;
+      align-content: center;
+      justify-content: center;
+      align-items: center;
+      width: 40%;
+      height: 40%;
+    }
+  </style>
+</html>
