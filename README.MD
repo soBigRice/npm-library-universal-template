@@ -1,17 +1,13 @@
-<!--
- * @Author: MrRice
- * @Date: 2024-06-02 17:50:26
- * @LastEditors: MrRice 1246333567@qq.com
- * @LastEditTime: 2024-06-04 18:32:11
- * @FilePath: /npm-library-universal-template/README.MD
- * @Description: 小舟从此逝,江海寄余生
- * 
- * Copyright (c) 2024 by $ 米大饭, All Rights Reserved. 
--->
 # LibTemplate
 
-## 一个创建库的模板，支持打包npm库支持相关的配置
+## 介绍
+这是一个通用的npm ts库模板，支持统一代码格式化规范，支持实时代码调试，支持案例编写，以及对与案例的打包，支持直接发布npm库，支持生成接口文档。
 
-## 创建脚手架
-
-`npm install`
+## 使用
+修改package.json中的
+```
+{
+   name:'xxx'
+}
+```
+以及vite.config.js中的**HelloLib**字眼
