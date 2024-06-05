@@ -1,25 +1,70 @@
-<!DOCTYPE html>
+<!--
+ * @Author: MrRice
+ * @Date: 2024-06-02 17:50:26
+ * @LastEditors: MrRice 1246333567@qq.com
+ * @LastEditTime: 2024-06-05 10:55:58
+ * @FilePath: /npm-library-universal-template/examples/HelloLib.html
+ * @Description: 
+ * 小舟从此逝，江海寄余生。。。。。。
+ * Copyright (c) 2024 by 米大饭, All Rights Reserved. 
+-->
+<!--
+ *                   ___====-_  _-====___
+ *             _--^^^#####//      \\#####^^^--_
+ *          _-^##########// (    ) \\##########^-_
+ *         -############//  |\^^/|  \\############-
+ *       _/############//   (@::@)   \############\_
+ *      /#############((     \\//     ))#############\
+ *     -###############\\    (oo)    //###############-
+ *    -#################\\  / VV \  //#################-
+ *   -###################\\/      \//###################-
+ *  _#/|##########/\######(   /\   )######/\##########|\#_
+ *  |/ |#/\#/\#/\/  \#/\##\  |  |  /##/\#/  \/\#/\#/\#| \|
+ *  `  |/  V  V  `   V  \#\| |  | |/#/  V   '  V  V  \|  '
+ *     `   `  `      `   / | |  | | \   '      '  '   '
+ *                      (  | |  | |  )
+ *                     __\ | |  | | /__
+ *                    (vvv(VVV)(VVV)vvv)
+ * 
+ *      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ * 
+ *                神兽保佑            永无BUG
+ -->
+
+<!--
+ * @Author: MrRice
+ * @Date: 2024-06-02 17:50:26
+ * @LastEditors: MrRice 1246333567@qq.com
+ * @LastEditTime: 2024-06-04 18:27:42
+ * @FilePath: /npm-library-universal-template/examples/HelloLib.html
+ * @Description: 小舟从此逝,江海寄余生
+ * 
+ * Copyright (c) 2024 by ${git_name_email}, All Rights Reserved. 
+-->
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HelloLib</title>
   </head>
+
   <body>
     <div class="app">
       <div id="container"></div>
     </div>
 
     <script type="module">
-      import HelloLib from "HelloLib";
-      new HelloLib("container");
+      import HelloLib from 'HelloLib';
+      new HelloLib('container');
     </script>
   </body>
 
   <style>
     .app {
       display: flex;
-      display: -webkit-flex; /* Safari */
+      display: -webkit-flex;
+      /* Safari */
       flex-direction: column;
       margin: auto;
       align-content: center;
@@ -45,6 +90,7 @@
       display: -webkit-flex;
       flex-direction: row;
     }
+
     #container {
       display: flex;
       display: -webkit-flex;
