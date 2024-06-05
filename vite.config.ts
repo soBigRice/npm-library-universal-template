@@ -30,12 +30,12 @@ export default defineConfig(({ mode }) => {
             if (file.endsWith(".html")) {
               acc[file.replace(".html", "")] = resolve(
                 __dirname,
-                `examples/${file}`
+                `examples/${file}`,
               );
             }
             return acc;
           },
-          {}
+          {},
         ),
       },
     };
